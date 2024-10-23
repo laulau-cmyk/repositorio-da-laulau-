@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moeda</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="logica.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Conversor de Moeda</h1>
+        <!-- Campo de entrada para o valor em reais (BRL) -->
+        <input type="number" id="valor" placeholder="Digite o valor em BRL">
+        <!-- Botão para converter -->
+        <button onclick="converter()">Converter</button>
+        <!-- Seletor para escolher a moeda de destino -->
+        <select id="moeda">
+            <option value="USD">Dólar (USD)</option>
+            <option value="EUR">Euro (EUR)</option>
+            <option value="GBP">Libra (GBP)</option>
+        </select>
+        <!-- Onde o resultado será exibido -->
+        <div id="resultado"></div>
+    </div>
+
+
+</body>
+
+</html>
